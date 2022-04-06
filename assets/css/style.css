@@ -27,3 +27,16 @@ footer{
     background-color: blue;
     padding-bottom: 5vh;
 }
+@media screen and (min-width: 800px) {
+    .main{
+        display: flex;  
+    }
+    .content{
+        flex: 3;
+        padding-bottom: 550px;
+    }
+    .side{
+        flex: 1;
+    }
+    
+}
